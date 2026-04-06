@@ -53,6 +53,20 @@ npm run dev
 
 By default it runs on port `3000` if no env is given.
 
+## Testing
+
+Run the test suite with:
+
+```bash
+npm test
+```
+
+If you want to reset the accounts data and finance data, run:
+
+```bash
+npm run reset
+```
+
 ## Database
 
 This project uses a local SQLite database file:
