@@ -1,3 +1,4 @@
+//Rbac-'role-based-access-control'
 const { ForbiddenError } = require('../utils/errors');
 
 const ROLES = {
