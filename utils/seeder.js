@@ -3,7 +3,7 @@ const bcrypt = require('bcryptjs');
 
 class Seeder {
   static async seed() {
-    console.log('🌱 Seeding database...');
+    console.log('Seeding database...');
     
     try {
       await this.clearData();
@@ -12,10 +12,10 @@ class Seeder {
       
       await this.seedFinanceRecords(users);
       
-      console.log('✅ Seeding completed successfully');
+      console.log('Seeding completed successfully');
       return users;
     } catch (error) {
-      console.error('❌ Seeding failed:', error);
+      console.error('Seeding failed:', error);
       throw error;
     }
   }
@@ -154,9 +154,9 @@ class Seeder {
   }
 
   static async reset() {
-    console.log('🧹 Resetting database...');
+    console.log('Resetting database...');
     await this.clearData();
-    console.log('✅ Database cleared');
+    console.log('Database cleared');
   }
 }
 
