@@ -113,5 +113,4 @@ There is also a health route:
 
 ## Small note
 
-This project is mostly for practice and demo purpose, so there are still few things that can be improved later.  
-But overall it is enough to show the backend flow in a clean way.
+This project is mostly for practice and intern assignment purpose, so there are still few things that can be improved later.
